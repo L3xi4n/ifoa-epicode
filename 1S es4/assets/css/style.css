@@ -1,0 +1,40 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+.header{
+  
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border: 6px;
+    background: linear-gradient(rgb(255, 255, 176), rgb(83, 56, 56))
+ 
+}
+
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+table {
+  border-collapse:collapse
+  }
+  td, th {
+  border:1px solid #ddd;
+  padding:8px;
+  }
+
+/* FORM */
+
+#video{
+  width: 500px;
+  height: 200px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
