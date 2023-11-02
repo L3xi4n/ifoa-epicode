@@ -155,5 +155,5 @@ document.getElementById("verifica").innerHTML += scrivi;
 //console.log('i due nomi sono uguali?', name1.toLowerCase() === name2.toLowerCase());
 
 //soluzione 2
-//let altraVerifica = name1.toLowerCase() === name2.toLowerCase();
-//console.log('i due nomi sono uguali?', altraVerifica);
+let altraVerifica = name1.toLowerCase() === name2.toLowerCase();
+console.log('i due nomi sono uguali?', altraVerifica);
