@@ -31,8 +31,12 @@ nav#lista li {
   list-style: none;
   display: inline;
   padding-left: 8px;
+ 
 }
 
+ul{
+  margin-top: 0px;
+}
 /* linea arancione */
 #lineaArancione {
   background-color: rgb(245, 102, 0);
@@ -86,7 +90,7 @@ section #foto4 {
 .lineaGrigia2{ 
   padding-top: 15px;
   padding-bottom: 15px;
- 
+
  } 
 
 
