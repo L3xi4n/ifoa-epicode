@@ -36,7 +36,9 @@ nav#lista li {
 #lineaArancione {
   background-color: rgb(245, 102, 0);
   width: 98%;
- 
+ padding-top: 1px;
+ padding-bottom: 1px; 
+ font-size: 1em;;
 }
 
 /* foto verde */
@@ -48,7 +50,7 @@ nav#lista li {
   padding-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  
+  margin: 20px;
 }
 
 /* 4 esempi di regali */
