@@ -36,6 +36,8 @@ nav#lista li {
 
 ul{
   margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 /* linea arancione */
 #lineaArancione {
