@@ -1,0 +1,109 @@
+/* Your styles here */
+/* body */
+body {
+  background-color: rgb(233, 237, 238);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+
+/* header */
+.lineaGrigia1, .lineaGrigia2 {
+  background: rgb(55, 70, 90);
+  width: 100%;
+}
+
+
+#logoAmazon{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* main */
+h4 {
+  text-align: left;
+  margin-left: 15px;
+  
+}
+/* lista */
+nav#lista li {
+  list-style: none;
+  display: inline;
+ 
+}
+
+/* linea arancione */
+#lineaArancione {
+  background-color: rgb(245, 102, 0);
+  width: 98%;
+ 
+}
+
+/* foto verde */
+
+#fotoVerde {
+  background-image: url("../img/bg-image.png");
+  width: 98;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+/* 4 esempi di regali */
+
+#foto {
+  background-color: white;
+  width: 98%;
+padding-bottom: 10px;
+}
+
+section #foto4 {
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px #7c7c7c;
+}
+
+#oculus{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#sound{
+  margin-bottom: 30px;
+}
+/* footer */
+
+#logoAmazon2 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/* .lineaGrigia2{ */
+ 
+/* } */
+
+
+/* combo */
+main,
+footer,
+#foto {
+  text-align: center;
+}
+
+#lineaArancione,
+#foto {
+  margin: auto;
+}
+#logoAmazon, #logoAmazon2 {
+  background-color: rgb(34, 47, 63);
+  width: 100%;
+}
+
+a,
+.lineaGrigia1, .lineaGrigia2,
+#lineaArancione, #fotoVerde {
+  color: white;
+}
+
+.fakeLinks {
+  color: rgb(13, 92, 112);
+}
