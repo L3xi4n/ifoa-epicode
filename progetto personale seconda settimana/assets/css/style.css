@@ -7,34 +7,31 @@ body {
 }
 
 /* header */
-.lineaGrigia1, .lineaGrigia2 {
+.lineaGrigia1,
+.lineaGrigia2 {
   background: rgb(55, 70, 90);
   width: 100%;
 }
 
-
-#logoAmazon{
+#logoAmazon {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-
 }
 
 /* main */
 h4 {
   text-align: left;
   margin-left: 15px;
-  
 }
 /* lista */
 nav#lista li {
   list-style: none;
   display: inline;
   padding-left: 8px;
- 
 }
 
-ul{
+ul {
   margin-top: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -43,9 +40,9 @@ ul{
 #lineaArancione {
   background-color: rgb(245, 102, 0);
   width: 98%;
- padding-top: 1px;
- padding-bottom: 1px; 
- font-size: 1em;;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 1em;
 }
 
 /* foto verde */
@@ -65,8 +62,8 @@ ul{
 #foto {
   background-color: white;
   width: 98%;
-padding-bottom: 15px;
-padding-top: 1px;
+  padding-bottom: 15px;
+  padding-top: 1px;
 }
 
 section #foto4 {
@@ -74,12 +71,12 @@ section #foto4 {
   box-shadow: 4px 4px 8px #7c7c7c;
 }
 
-#oculus{
+#oculus {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-#sound{
+#sound {
   margin-bottom: 30px;
 }
 /* footer */
@@ -89,12 +86,10 @@ section #foto4 {
   padding-top: 30px;
 }
 
-.lineaGrigia2{ 
+.lineaGrigia2 {
   padding-top: 15px;
   padding-bottom: 15px;
-
- } 
-
+}
 
 /* combo */
 main,
@@ -107,14 +102,17 @@ footer,
 #foto {
   margin: auto;
 }
-#logoAmazon, #logoAmazon2 {
+#logoAmazon,
+#logoAmazon2 {
   background-color: rgb(34, 47, 63);
   width: 100%;
 }
 
 a,
-.lineaGrigia1, .lineaGrigia2,
-#lineaArancione, #fotoVerde {
+.lineaGrigia1,
+.lineaGrigia2,
+#lineaArancione,
+#fotoVerde {
   color: white;
 }
 
