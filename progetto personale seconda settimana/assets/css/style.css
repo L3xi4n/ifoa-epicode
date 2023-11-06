@@ -29,7 +29,7 @@ h4 {
 nav#lista li {
   list-style: none;
   display: inline;
- 
+  padding-left: 8px;
 }
 
 /* linea arancione */
@@ -46,6 +46,8 @@ nav#lista li {
   width: 98;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   
 }
 
