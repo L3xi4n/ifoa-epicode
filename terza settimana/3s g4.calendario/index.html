@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calendario</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+  </head>
+  <body>
+    <!-- corpo calendario e appuntamenti -->
+    <div class="container">
+        <h1></h1>
+      <main>
+        <div id="calendar">
+          <!-- celle dei gg create da js e posizionate qui dentro -->
+        </div>
+        <h2>Aggiungi appuntamento</h2>
+        <div id="addMeeting">
+          <div>
+            <h4>Giorno</h4>
+            <span id="newMeetingDay">Clicca su un giorno</span>
+          </div>
+          <form>
+            <div>
+              <h4>Ora appuntamento</h4>
+              <input type="time" required id="newMeetingTime" />
+            </div>
+            <div>
+              <h4>Nome appuntamento</h4>
+              <input
+                type="text"
+                required
+                id="newMeetingName"
+                placeholder="Nome appuntamento"
+              />
+            </div>
+            <div>
+              <h4>Aggiungi</h4>
+              <button type="submit">Salva</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <section>
+        <!-- sezione visione appuntamenti esistenti per il giorno selezionato -->
+        <div id="appointments">
+          <h2>Appuntamenti del giorno:</h2>
+          <ul>
+            <!-- lista generata e costruita da js -->
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="assets/js/D4.js"></script>
+  </body>
+</html>

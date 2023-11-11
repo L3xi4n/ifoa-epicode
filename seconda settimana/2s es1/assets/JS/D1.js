@@ -130,7 +130,7 @@ let name2 = "Jhon";
 //soluzione 1
 let verifica = name1 === name2;
 console.log(verifica);
-const scrivi = ('verfica')? 'sì' : 'no';
+const scrivi = ("verfica")? 'sì' : 'no';
 document.getElementById("verifica").innerHTML += scrivi;
 
 //soluzione 2

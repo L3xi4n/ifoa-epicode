@@ -29,7 +29,7 @@ if(numeroEqual !== 5) {
   document.getElementById('il numero è diverso da 5');
 }
 else {
-  console.log('notEqual').innerHTML = 'il numero è uguale a 5';
+  document.getElementById('notEqual').innerHTML = 'il numero è uguale a 5';
 }
 
 
