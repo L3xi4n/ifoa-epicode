@@ -21,6 +21,7 @@ body {
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
+    
   }
 
   .navList .list1 {
@@ -52,8 +53,11 @@ body {
   }
 
   /* .containerNavBar.scrolled {
+    position: fixed;
     background-color: white;
+    transition: background-color 0.5 ease;
   } */
+  
   /* header */
 
   .containerHeader {
