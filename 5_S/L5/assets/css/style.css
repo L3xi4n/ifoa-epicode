@@ -193,6 +193,29 @@ margin-right: 8px;
   justify-items: space-between;
   padding: 15px 20px 10px 0;
 } 
+
+/* aside */
+.mainPage{
+  display: flex;
+  flex-direction: column;
+}
+.articles{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  
+}
+
+.more >p, .more > .moreButtons, .more > .moreFooter{
+  display: flex;
+  justify-content: end;
+}
+
+.more > .moreButtons{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 }
 
 
