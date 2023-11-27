@@ -8,18 +8,22 @@ body {
 
 @media screen and (max-width: 1200px) {
   /* navBar */
+
+   .containerNavBar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #191919;
+    background-color: #ffc017;
+  }
+
   .navBar {
     margin: 0 120px;
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
   }
-  .containerNavBar {
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid #191919;
-    background-color: #ffc017;
-  }
+ 
 
   .navList .list1 {
     list-style: none;
