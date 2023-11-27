@@ -2,14 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
-  margin: 0 120px;
   font-family: "Roboto", sans-serif;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   /* navBar */
 
-   .containerNavBar {
+  .containerNavBar {
     position: sticky;
     top: 0;
     z-index: 999;
@@ -23,7 +22,6 @@ body {
     display: flex;
     justify-content: space-between;
   }
- 
 
   .navList .list1 {
     list-style: none;
@@ -97,14 +95,13 @@ body {
   .aLotOfMs {
     display: flex;
     align-items: flex-end;
-   
   }
 
   /* trending */
 
-.trendingComments{
-  display: flex;
-}
+  .trendingComments {
+    display: flex;
+  }
 
   .trending {
     margin: 0 120px;
@@ -112,16 +109,17 @@ body {
 
   .containerTrending {
     border-bottom: 2px solid #efefef;
+    padding-bottom: 3rem;
   }
 
-.containerTrendingTitle{
-  margin: 40px 0 2px 0;
-}
+  .containerTrendingTitle {
+    margin: 40px 0 2px 0;
+  }
 
-.trendingIcon{
-  width: 25px;
-  margin-right: 8px;
-}
+  .trendingIcon {
+    width: 25px;
+    margin-right: 8px;
+  }
 
   .titleTrending {
     font-size: 11px;
@@ -131,96 +129,203 @@ body {
     align-items: center;
   }
 
-.trendingNumbers{
-  font-size: 28px;
-  font-weight: bold;
-  color: #d8d8d8;
-  display: flex;
-  flex-direction: column;
+  .trendingNumbers {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trendingNoNumber {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .userInfos {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  .trendingUsers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .trendingComments {
+    width: 40%;
+  }
+
+  .trendingText {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .trendingDataAndMin {
+    font-size: 11px;
+  }
+
+  .trendingFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .star {
+    margin: 0 5px;
+  }
+
+  .trendingFirstRow {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    padding: 5px 20px 10px 0;
+  }
+
+  .trendingSecondRow {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    padding: 15px 20px 10px 0;
+  }
+
+  /* aside */
+  .mainPage {
+    display: flex;
+    margin: 0 120px;
+  }
+  /* contenitore generale articoli */
+  .articles {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .articleFormatting {
+    display: flex;
+  }
+
+  /* articolo singolo */
+  .article {
+    margin: 4rem 2rem 0 0;
+  }
+
+  .articleNoPhoto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sideImage {
+    display: flex;
+    width: 180px;
+    margin-left: 20px;
+    justify-content: flex-end;
+  }
+
+  .articleUsers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .articleTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .articleText {
+    font-size: 13px;
+    margin: 8px 0 6px 0;
+    width: 500px;
+  }
+
+  .articleFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.3rem 0 0 0;
+  }
+
+  .articleDataAndMin {
+    font-size: 11px;
+  }
+
+  .star {
+    margin: 0 5px;
+  }
+  .articleSideImage {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .articleBookmark {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .span {
+    background-color: #e7e7e7;
+    border-radius: 30px;
+    padding: 3px 8px;
+  }
+
+  /* footer */
+
+  .more {
+    margin: 4rem 2rem 0 5rem;
+  }
+  .more > p,
+  .more > .moreButtons,
+  .more > .moreFooter {
+    display: flex;
+  }
+
+  .more > .moreButtons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .containerMore > p {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 0 15px 0;
+  }
+  .moreButtons {
+    border-bottom: 1px solid rgb(217, 217, 217);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .moreStyleButtons {
+    border-radius: 50px;
+    background-color: #e7e7e7;
+    border-radius: 30px;
+    border: 0px;
+    padding: 7px 12px;
+    margin: 5px 5px 5px 0;
+  }
+  .moreFooter > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .moreFooter > ul > li {
+    margin-bottom: 10px;
+  }
+
 }
 
-.trendingNoNumber{
-  margin-left: 20px;
-  margin-right: 20px;
+body{
+  margin: 0 100px;
 }
 
-.userInfos{
-width: 30px;
-border-radius: 50%;
-margin-right: 8px;
-}
-
-.trendingUsers{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.trendingComments{
-  width: 40%;
-}
-
-.trendingText{
-  font-weight: bold;
-  margin: 10px 0;
-}
-.trendingDataAndMin{
-  font-size: 11px;
-}
-
-.trendingFooter{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.star{
-  margin: 0 5px;
-}
-
-.trendingFirstRow{
-  display: flex;
-  flex-direction: row; 
-  justify-items: space-between;
-  padding: 5px 20px 10px 0;
-} 
-
-.trendingSecondRow{
-  display: flex;
-  flex-direction: row; 
-  justify-items: space-between;
-  padding: 15px 20px 10px 0;
-} 
-
-/* aside */
-.mainPage{
-  display: flex;
-  flex-direction: column;
-}
-.articles{
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  
-}
-
-.more >p, .more > .moreButtons, .more > .moreFooter{
-  display: flex;
-  justify-content: end;
-}
-
-.more > .moreButtons{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-}
-
-
-
- /* position: fixed;
+/* position: fixed;
     top: 80px;
     left: 200px;
     background: blue; */
