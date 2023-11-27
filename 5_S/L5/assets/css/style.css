@@ -196,6 +196,7 @@ body {
   .mainPage {
     display: flex;
     margin: 0 120px;
+     width: 100%;
   }
   /* contenitore generale articoli */
   .articles {
@@ -236,12 +237,14 @@ body {
   .articleTitle {
     font-size: 18px;
     font-weight: bold;
+    /* display: flex;
+    flex-wrap: wrap; */
   }
 
   .articleText {
     font-size: 13px;
     margin: 8px 0 6px 0;
-    width: 500px;
+   
   }
 
   .articleFooter {
