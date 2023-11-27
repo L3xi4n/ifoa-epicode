@@ -1,6 +1,6 @@
-// const navbar = document.getElementById('navbar-fixed');
+// const navbar = document.getElementById('containerNavBar');
 
-// const navbarHeightPx = 50;
+// const navbarHeightPx = 300;
 
 // window.addEventListener('scroll', () => {
 //   if (
