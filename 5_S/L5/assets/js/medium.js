@@ -1,0 +1,1 @@
+// if(window.self !== window.top) window.location = "about:blank"
