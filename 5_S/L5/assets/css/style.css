@@ -51,6 +51,9 @@ body {
     cursor: pointer;
   }
 
+  /* .containerNavBar.scrolled {
+    background-color: white;
+  } */
   /* header */
 
   .containerHeader {
@@ -197,12 +200,18 @@ body {
     display: flex;
     margin: 0 120px;
      width: 100%;
+     justify-content: center;
+  }
+  .containerMain {
+    display: flex;
+    width: 100%;
   }
   /* contenitore generale articoli */
   .articles {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    width: 65%;
   }
 
   .articleFormatting {
@@ -264,10 +273,10 @@ body {
   .articleSideImage {
     display: flex;
     justify-content: flex-end;
+    margin-left: auto;
   }
   .articleBookmark {
-    display: flex;
-    justify-content: flex-end;
+    margin-left: auto;
   }
 
   .span {
@@ -279,7 +288,8 @@ body {
   /* footer */
 
   .more {
-    margin: 4rem 2rem 0 5rem;
+    margin-top: 4rem;
+    width: 38%;
   }
   .more > p,
   .more > .moreButtons,
