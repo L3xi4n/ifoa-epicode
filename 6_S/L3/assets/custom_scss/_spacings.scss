@@ -25,15 +25,14 @@ $sizes: (
 }
 
 //es: .pd-top-sm {
- // padding-top: 12px;
- //}
+// padding-top: 12px;
+//}
 
- //come per richiamare una funzione, la stiamo triggerando
-  @include create-padding();
-  @include create-padding(top);
-  @include create-padding(bottom);
-  @include create-padding(left);
-  @include create-padding(right);
-  @include create-padding(block);
-  @include create-padding(inline);
-
+//come per richiamare una funzione, la stiamo triggerando
+@include create-padding();
+@include create-padding(top);
+@include create-padding(bottom);
+@include create-padding(left);
+@include create-padding(right);
+@include create-padding(block);
+@include create-padding(inline);
