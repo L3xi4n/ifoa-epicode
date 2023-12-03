@@ -1,0 +1,27 @@
+.btn{
+  display:inline-block;
+  border-radius: 5px;
+  padding: $padding-default;
+  margin: 3px;
+  transition: transform 0.3 ease-in-out;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+
+// definiti i colori con variabile mappa
+$btn-color: (
+  // primary: $primaryColor ==> se aveesimo usato le variabili singole
+  primary: map-get($setColors, primaryColor ),
+  secondary: map-get($setColors, secondaryColor),
+  tertiary: map-get($setColors, tertiaryColor),
+);
+
+//ciclo| per ogni coppia chiave-valore che trova in $btn-color, crea una classe che ha prefisso btn- e suffisso la chiave(.btn-#{key}).Cicli la variabile mappa
+@each $key, $value in $btn-color{
+  .btn-#{$key}{
+    background-color: $value;
+    color: map-get($setColors, textLight);
+  }
+}
+

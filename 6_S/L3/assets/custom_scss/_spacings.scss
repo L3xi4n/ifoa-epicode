@@ -1,0 +1,39 @@
+$padding-default: 20px;
+$margin-default: 0 auto;
+
+$sizes: (
+  sm: 12px,
+  normal: 16px,
+  md: 24px,
+  lg: 36px,
+  xl: 48,
+  xxl: 160px,
+);
+
+@mixin create-padding($direction: null) {
+  @each $key, $value in $sizes {
+    // interpolazione
+    .padding-#{$direction}-#{$key} {
+      //nome della classe
+      @if $direction {
+        padding-#{$direction}: $value; //proprietà con valore
+      } @else {
+        padding: $value;
+      }
+    }
+  }
+}
+
+//es: .pd-top-sm {
+ // padding-top: 12px;
+ //}
+
+ //come per richiamare una funzione, la stiamo triggerando
+  @include create-padding();
+  @include create-padding(top);
+  @include create-padding(bottom);
+  @include create-padding(left);
+  @include create-padding(right);
+  @include create-padding(block);
+  @include create-padding(inline);
+

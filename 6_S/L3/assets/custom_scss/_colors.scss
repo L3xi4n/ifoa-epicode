@@ -1,0 +1,21 @@
+// mappa dei colori, variabili singole
+
+// $textDark: black;
+// $textLight: #f4f4f4;
+// $bgColor: #f4f4f4;
+// $primaryColor: #0e6cff;
+// $secondaryColor: #ff8700;
+// $tertiaryColor: #4caf50;
+// $bgHero: #640fc5;
+
+// abbiamo definito i colori globali, variabile mappa (chiave+valore associato)
+$setColors: (
+  textDark: black,
+  textLight: #f4f4f4,
+  bgColor: #f4f4f4,
+  primaryColor: #0e6cff,
+  secondaryColor: #ff8700,
+  tertiaryColor: #4caf50,
+  bgHero: #640fc5,
+);
+  
