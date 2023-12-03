@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neffli</title>
+    <link rel="stylesheet" href="assets/scss/custom.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body> 
+    <nav class="navbar navbar-expand-lg bg-black pb-2 pt-0">
+      <div class="container-fluid ps-1">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/kisspng-netflix-streaming-media-television-show-logo-netflix-logo-5b35b03bb4e9d0.753613021530245179741.png"
+            width="150px"
+            class="d-inline-block align-top"
+            alt="logo_netflix"
+          />
+        </a>
+        <!-- cose della nav -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Serie Tv</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Film</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Originali</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Aggiunti di recente</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">La mia lista</a>
+            </li>
+          </ul>
+
+          <!-- cose della nav a sinistra -->
+          <div>
+            <ul class="navbar-nav">
+              <a class="nav-link text-white" href="#">
+                <li class="nav-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="40"
+                    width="20"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="#ffffff"
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    />
+                  </svg>
+                </li>
+              </a>
+              <a class="nav-link text-white d-flex" href="#">
+                <li class="text-white nav-item align-self-center">KIDS</li>
+              </a>
+
+              <a class="nav-link text-white" href="#">
+                <li class="nav-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="40"
+                    width="20"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="#ffffff"
+                      d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"
+                    />
+                  </svg>
+                </li>
+              </a>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="40"
+                    width="40"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="#24d9a3"
+                      d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"
+                    />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
