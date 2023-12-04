@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(20, 20, 20);
+}
+
+.main{
+  padding-left: 2.5rem;
+}
+.navbar {
+  background-color: rgb(20, 20, 20);
+}
+
+.navbar2{
+  background-image: linear-gradient( rgb(0, 0, 0),rgb(20, 20, 20));
+}
+.tv_shows{
+  font-size: 35px;
+}
+
+.tv_shows_img{
+  font-size: 25px;
+}
+
+.footer{
+  margin: 10rem 20rem 0rem 20rem;
+ 
+}
+
+.maturity_button{
+  background-color: rgb(57, 57, 57);
+}
+
+/* .linea{
+  width: 1px;
+  color: rgb(255, 255, 255);
+} */
