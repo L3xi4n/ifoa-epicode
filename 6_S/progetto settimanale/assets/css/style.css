@@ -28,8 +28,7 @@ body{
 }
 
 .footer{
-  margin: 10rem 20rem 0rem 20rem;
- 
+  margin: 10rem 20rem 1rem 20rem;
 }
 
 .maturity_button{
@@ -38,4 +37,27 @@ body{
 
 .colors_text_profile{
   color: #b8b7b7;
+}
+
+.svg_menu{
+  width: 3%;
+}
+
+.hover_tv_shows{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hover_tv_shows:hover{
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+.dropdown-menu{
+  background-color:rgb(20, 20, 20);
+}
+
+.dropdown-item:hover{
+  background-color: #969696;
 }
