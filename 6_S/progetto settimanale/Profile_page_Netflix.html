@@ -28,138 +28,149 @@
         </a>
       </div>
     </nav>
-<div class="container d-flex justify-content-center">
-    <div class="main mt-5">
-      
-      <!-- titolo -->
-      <div>
-        <h1 class="text-light fw-semibold">
-          Edit Profile
-          <hr class="border border-1"/>
-        </h1>
-      </div>
 
-      <!--  -->      
-      <div class="d-flex">
-           <div class="col-2"> 
-              <img src="assets/img/avatar.png" width="90%" height="25%"/>
+    <div class="container d-flex justify-content-center">
+      <div class="main2">
+        <!-- titolo -->
+        <div>
+          <h1 class="text-light h1_profile col-10">
+            Edit Profile
+            <hr />
+          </h1>
+        </div>
+
+        <!-- container principale -->
+        <div class="d-flex">
+          <!-- container prof_img -->
+          <div class="col-2">
+            <img src="assets/img/avatar.png" width="90%" height="25%" />
+          </div>
+          <!-- container corpo -->
+          <div class="ms-2">
+            <div class="col bg-secondary my-0">
+              <button class="btn rounded-0 pe-5 py-0 my-1 text-light">
+                Strive Student
+              </button>
             </div>
-             <div class="ms-4">
-              <div class="col-10">
-            <button class="btn bg-secondary rounded-0 pe-5 py-0 my-2 text-light">
-              Strive Student
-            </button>
-          </div>
-          <div class="col">
-            <div class="text-light mt-2">Language:</div>
-          </div>
+            <div class="col">
+              <div class="mt-3 colors_text_profile">Language:</div>
+            </div>
 
-          <!-- button lingue-->
-          <div class="">
-            <button
-              type="button"
-              class="btn btn btn-outline-light btn bg-black rounded-0 py-0 pe-2 ps-2"
-            >
-              <div
-                class="nav-link dropdown-toggle text-light mb-2"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+            <!-- button lingue-->
+            <div class="">
+              <button
+                type="button"
+                class="btn btn btn-outline-light btn bg-black rounded-0 py-0 mt-1 ps-2 pb-1"
               >
-                English&nbsp;&nbsp;&nbsp;
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Italian</a></li>
-                  <li><a class="dropdown-item" href="#">French</a></li>
-                  <li><a class="dropdown-item" href="#">Spanish</a></li>
-                  <li><a class="dropdown-item" href="#">Germany</a></li>
-                  <li><a class="dropdown-item" href="#">Hindi</a></li>
-                </ul>
+                <div
+                  class="nav-link dropdown-toggle text-light"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English&nbsp;&nbsp;&nbsp;&nbsp;
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Italian</a></li>
+                    <li><a class="dropdown-item" href="#">French</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    <li><a class="dropdown-item" href="#">Germany</a></li>
+                    <li><a class="dropdown-item" href="#">Hindi</a></li>
+                  </ul>
+                </div>
+              </button>
+              <hr class="border border-1" />
+            </div>
+
+            <!-- maturity settings -->
+            <div class="col">
+              <div class="colors_text_profile mb-2">Maturity Settings:</div>
+            </div>
+
+            <div class="col">
+              <button
+                class="btn rounded-0 py-0 text-light maturity_button mb-2"
+              >
+                ALL MATURITY RATINGS
+              </button>
+            </div>
+
+            <div class="col">
+              <small class="text-light">
+                Show titles of all maturity ratings for this profile.
+              </small>
+            </div>
+
+            <div class="col">
+              <button
+                class="btn btn-bg-none border-1 rounded-0 borders border-secondary text-secondary py-0 px-4 my-3"
+              >
+                EDIT
+              </button>
+
+              <hr class="border border-1 mt-2 mb-3" />
+            </div>
+
+            <div class="col colors_text_profile">
+              <div class="mb-1">Autoplay controls</div>
+            </div>
+
+            <div class="col colors_text_profile">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label mb-1" for="flexCheckChecked">
+                  <small
+                    >Autoplay next episode in a series on all devices</small
+                  >
+                </label>
               </div>
-            </button>
-            <hr class="border border-1" />
-          </div>
-
-          <!-- maturity settings -->
-          <div class="col">
-            <div class="text-light mb-2">Maturity Settings:</div>
-          </div>
-
-          <div class="col">
-            <button class="btn rounded-0 py-0 text-light maturity_button mb-2">
-              ALL MATURITY RATINGS
-            </button>
-          </div>
-
-          <div class="col">
-            <small class="text-light">
-              Show titles of all maturity ratings for this profile.
-            </small>
-          </div>
-
-          <div class="col">
-            <button
-              class="btn btn-bg-none border-1 rounded-0 borders border-secondary text-secondary py-0 px-4 my-3"
-            >
-              EDIT
-            </button>
-
-            <hr class="border border-1 mt-2 mb-3" />
-          </div>
-
-          <div class="col">
-            <div class="text-light mb-1">Autoplay controls</div>
-          </div>
-
-          <div class="col">
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckChecked"
-                checked
-              />
-              <label class="form-check-label text-light mb-1" for="flexCheckChecked">
-                <small>Autoplay next episode in a series on all devices</small>
-              </label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label mb-1" for="flexCheckChecked">
+                  <small>Autoplay previews while browsing on all devices</small>
+                </label>
+              </div>
             </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckChecked"
-                checked
-              />
-              <label class="form-check-label text-light mb-1" for="flexCheckChecked">
-                <small>Autoplay previews while browsing on all devices</small>
-              </label>
-            </div>
-            <hr class="border border-1" />
           </div>
+        </div>
+        <div class="col-10">
+          <hr class="border border-1" />
+        </div>
+        <!-- buttons -->
+        <div class="row">
+          <div class="col-10">
+            <div class="d-flex justify-content-around gap-0">
+              <button
+                class="bg-white border-1 rounded-0 border border-secondary text-secondary py-1 px-4 fw-bold"
+              >
+                SAVE
+              </button>
 
-          <!-- buttons -->
-          <div class="col d-flex gap-4">
-            <button
-              class="bg-white border-1 rounded-0 border border-secondary text-secondary py-0 px-4 fw-bold"
-            >
-              SAVE
-            </button>
+              <div class="border-1 rounded-0 border border-secondary">
+                <button class="btn btn-bg-none text-secondary py-1 px-5">
+                  CANCEL
+                </button>
+              </div>
 
-            <button
-              class="btn btn-bg-none border-1 rounded-0 border border-secondary text-secondary py-0 px-4"
-            >
-              CANCEL
-            </button>
-
-            <button
-              class="btn btn-bg-none border-1 rounded-0 border border-secondary text-secondary py-0 px-4"
-            >
-              DELETE PROFILE
-            </button>
+              <button
+                class="btn btn-bg-none border-1 rounded-0 border border-secondary text-secondary py-1 px-5"
+              >
+                DELETE PROFILE
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
 
     <script
