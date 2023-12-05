@@ -7,8 +7,6 @@ class User {
   }
 
   greetings() {
-    // console.log(`I am ${this.age} years old`);
-
     return (
       "hello, my name is " +
       this.firstName +
@@ -36,7 +34,7 @@ class NewAge extends User {
           " that is " +
           user2.age
       );
-    } else {
+    } else if(user1.age < user2.age){
       console.log(
         user2.firstName +
           " is " +
@@ -45,6 +43,16 @@ class NewAge extends User {
           user1.firstName +
           " that is " +
           user1.age
+      );
+    }else{
+      console.log(
+        user1.firstName +
+          " is " +
+          user1.age +
+          " and is the same age as " +
+          user2.firstName +
+          " that is " +
+          user2.age
       );
     }
   }
