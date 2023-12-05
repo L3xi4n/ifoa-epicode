@@ -7,6 +7,8 @@ class User {
   }
 
   greetings() {
+    // console.log(`I am ${this.age} years old`);
+
     return (
       "hello, my name is " +
       this.firstName +
@@ -19,6 +21,32 @@ class User {
     );
   }
 }
+
+// class NewAge {
+//   constructor(users) {
+//     this.users = users;
+
+//     if (user1.age > user2.age) {
+//       console.log(
+//         user1.firstName +
+//           " is " +
+//           user1.age +
+//           " and is older than " +
+//           user2.firstName + " that is " +
+//           user2.age
+//       );
+//     } else {
+//       console.log(
+//         user2.firstName +
+//           " is " +
+//           user2.age +
+//           " and is older than " +
+//           user1.firstName + " that is " +
+//           user1.age
+//       );
+//     }}
+//    static displayAge = NewAge;
+// }
 
 class NewAge extends User {
   constructor(age) {
@@ -34,7 +62,7 @@ class NewAge extends User {
           " that is " +
           user2.age
       );
-    } else if(user1.age < user2.age){
+    } else if (user1.age < user2) {
       console.log(
         user2.firstName +
           " is " +
@@ -44,7 +72,7 @@ class NewAge extends User {
           " that is " +
           user1.age
       );
-    }else{
+    } else {
       console.log(
         user1.firstName +
           " is " +
@@ -59,8 +87,8 @@ class NewAge extends User {
   static displayAge = NewAge;
 }
 
-const user1 = new User("John", "Doe", "25", "New York");
-const user2 = new User("Linda", "Smith", "30", "Mexico");
+const user1 = new User("John", "Doe", 25, "New York");
+const user2 = new User("Linda", "Smith", 30, "Mexico");
 
 console.log(user1.greetings());
 console.log(user2.greetings());
