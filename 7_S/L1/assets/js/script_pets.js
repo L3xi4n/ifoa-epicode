@@ -21,7 +21,7 @@ console.log(true);
 // animali creati con lo stampino
 const gatto1 = new Pet("Link", "Liv", "gatto", "europeo");
 const gatto2 = new Pet("Maggie", "Liv", "gatto", "europeo");
-const cane1 = new Pet("Puffle", "Aron", "cane", "boh");
+const cane1 = new Pet("Puffle", "Aron", "cane", "sconosciuta");
 
 // confronto
 gatto1.sameOwner(gatto2);
