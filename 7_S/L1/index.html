@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pets</title>
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+  </head>
+  <body>
+    <div>
+      <label for="petName">Pet name:</label><br />
+      <input type="text" id="petName" /><br />
+      <label for="ownerName">Owner name:</label><br />
+      <input type="text" id="ownerName" /><br />
+      <label for="species">Species:</label><br />
+      <input type="text" id="species" /><br />
+      <label for="breed">Breed:</label><br />
+      <input type="text" id="breed" /><br /><br />
+      <button type="button" onclick="add_pet()">Submit</button>
+    </div>
 
-
-  <script src="assets/js/script_pets.js"></script>
-</body>
+    <script src="assets/js/script_pets.js"></script>
+  </body>
 </html>

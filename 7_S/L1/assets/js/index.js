@@ -6,32 +6,44 @@ class User {
     this.location = location;
   }
 
-// soluzione
-ageDiff(user){
-if (this.age > user.age) {
-  console.log(`${this.firstName} is ${this.age} and is older than ${user.firstName} that is ${user.age}`);
-}else if (this.age < user.age) {
-  console.log(`${this.firstName} is ${this.age} and is younger than ${user.firstName} that is ${user.age}`);
-}else {
-  console.log(`${this.firstName} is ${this.age} and is the same age as ${user.firstName} that is ${user.age}`);
+  // soluzione
+  ageDiff(user) {
+    if (this.age > user.age) {
+      console.log(
+        `${this.firstName} is ${this.age} and is older than ${user.firstName} that is ${user.age}`
+      );
+    } else if (this.age < user.age) {
+      console.log(
+        `${this.firstName} is ${this.age} and is younger than ${user.firstName} that is ${user.age}`
+      );
+    } else {
+      console.log(
+        `${this.firstName} is ${this.age} and is the same age as ${user.firstName} that is ${user.age}`
+      );
+    }
+  }
 }
-}
-// conolelog degli objects
-  // greetings() {
-  //   // console.log(`I am ${this.age} years old`);
+const user1 = new User("John", "Doe", 25, "New York");
+const user2 = new User("Linda", "Smith", 30, "Mexico");
 
-  //   return (
-  //     "hello, my name is " +
-  //     this.firstName +
-  //     " " +
-  //     this.lastName +
-  //     " I am " +
-  //     this.age +
-  //     " years old and I live in " +
-  //     this.location
-  //   );
-  // }
-}
+user1.ageDiff(user2);
+user2.ageDiff(user1);
+
+// conolelog degli objects
+// greetings() {
+//   // console.log(`I am ${this.age} years old`);
+
+//   return (
+//     "hello, my name is " +
+//     this.firstName +
+//     " " +
+//     this.lastName +
+//     " I am " +
+//     this.age +
+//     " years old and I live in " +
+//     this.location
+//   );
+// }
 
 // creo una classe
 // class NewAge {
@@ -59,7 +71,6 @@ if (this.age > user.age) {
 //     }}
 //    static displayAge = NewAge;
 // }
-
 
 // aggiungo una classe
 // class NewAge extends User {
@@ -101,16 +112,7 @@ if (this.age > user.age) {
 //   static displayAge = NewAge;
 // }
 
-const user1 = new User("John", "Doe", 25, "New York");
-const user2 = new User("Linda", "Smith", 30, "Mexico");
-
-user1.ageDiff(user2);
-user2.ageDiff(user1);
-
-
 // console.log(user1.greetings());
 // console.log(user2.greetings());
 
 // const age = new NewAge(user1.age, user2.age);
-
-
