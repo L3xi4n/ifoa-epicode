@@ -1,5 +1,3 @@
-
-
 const url = "https://striveschool-api.herokuapp.com/books";
 // prendiamo l'url della pagina(fetch è una promise)
 fetch(url)
@@ -47,36 +45,24 @@ function populateHomePage(data) {
     cardPrice.innerText = "prezzo: " + "€" + book.price;
     cardPrice.style.marginTop = "1rem";
 
-
-
-    let cardLink = document.createElement('a');
-    cardLink.classList.add('btn', 'btn-primary', 'me-2');
+    let cardLink = document.createElement("a");
+    cardLink.classList.add("btn", "btn-primary", "me-2");
     cardLink.style.marginTop = "2rem";
-
 
     //creiamo un bottone per far "sparire" la card dalla pagina
     let cardRemove = document.createElement("a");
     cardRemove.classList.add("btn", "btn-danger", "me-2");
     cardRemove.style.marginTop = "2rem";
-   
 
-
-
- cardLink.href = '#';
-    cardLink.innerText = 'Compra ora';
-
+    cardLink.href = "#";
+    cardLink.innerText = "Compra ora";
 
     cardRemove.href = "#";
     cardRemove.innerText = "Scarta";
 
-
-
-// cardRemove.addEventListener("click", function removeBook(){
-//     localStorage.removeItem("card");
-// });
-
-
-
+    // cardRemove.addEventListener("click", function removeBook(){
+    //     localStorage.removeItem("card");
+    // });
 
     // let cardRemoveFromCart = document.createElement('a');
     // cardRemoveFromCart.classList.add('btn', 'btn-warning', 'me-2');
@@ -94,11 +80,5 @@ function populateHomePage(data) {
     card.appendChild(cardBody);
 
     document.querySelector("#root").appendChild(card);
-  
-
-    
   });
-
 }
-
- 
