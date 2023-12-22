@@ -1,0 +1,27 @@
+
+#main{
+  background-color: blueviolet;
+  margin: 0;
+  display: flex;
+}
+
+#uno{
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(250, 181, 244);
+  margin: 5rem 0 0 5rem ;
+}
+
+#due{
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(250, 181, 244);
+  margin: 5rem 0 0 5rem ;
+}
+
+#tre{
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(250, 181, 244);
+  margin: 5rem 0 0 5rem ;
+}
